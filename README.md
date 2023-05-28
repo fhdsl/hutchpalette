@@ -42,7 +42,7 @@ library(scales)
 Show Fred Hutch colors
 
 ``` r
-plot(hutch_palette)
+plot(hutch_palette$hutch_colors)
 ```
 
 <img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />

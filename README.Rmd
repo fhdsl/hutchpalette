@@ -46,7 +46,7 @@ library(scales)
 Show Fred Hutch colors
 
 ```{r}
-plot(hutch_palette)
+plot(hutch_palette$hutch_colors)
 ```
 
 
