@@ -11,6 +11,6 @@ An object of class \code{palettes_palette} (inherits from \code{vctrs_list_of}, 
 hutch_palette
 }
 \description{
-The official colors of the Fred Hutch Cancer Center in Seattle, Washington.
+The official colors of the Fred Hutchinson Cancer Center in Seattle, Washington.
 }
 \keyword{datasets}

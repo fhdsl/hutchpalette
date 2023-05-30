@@ -1,10 +1,10 @@
-Package: hutchpalette
-Title: What the Package Does (One Line, Title Case)
+Package: hutchplot
+Title: Color Palette and Logos for the Fred Hutchinson Cancer Center
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Howard", "Baek", , "howardbaek@fredhutch.org", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0000-8942-1618"))
+Description: Provides functions for ggplot2 color palettes and logos.
 License: CC0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -13,3 +13,5 @@ Depends:
     palettes,
     R (>= 2.10)
 LazyData: true
+URL: https://github.com/fhdsl/hutchplot 
+BugReports: https://github.com/fhdsl/hutchplot/issues 

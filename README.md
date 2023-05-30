@@ -1,17 +1,17 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# hutchpalette
+# hutchplot
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-hutchpalette is a color palette package developed specifically for the
-Fred Hutchinson Cancer Center. This package leverages the power of
+hutchplot is a color palette package developed specifically for the Fred
+Hutchinson Cancer Center. This package leverages the power of
 [palettes](https://github.com/mccarthy-m-g/palettes/), an R package
 designed for working with color vectors and palettes.
 
-The creation of hutchpalette was a straightforward process that involved
+The creation of hutchplot was a straightforward process that involved
 following the step-by-step instructions outlined in the [“Creating a
 color palette
 package”](https://mccarthy-m-g.github.io/palettes/articles/creating-packages.html)
@@ -19,21 +19,21 @@ vignette provided by the palettes R package.
 
 ## Installation
 
-You can install the development version of hutchpalette from
+You can install the development version of hutchplot from
 [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("howardbaek/hutchpalette")
+devtools::install_github("fhdsl/hutchplot")
 ```
 
-## Using hutchpalette with ggplot2
+## Using hutchplot with ggplot2
 
 Code borrowed from [Using palettes with
 ggplot2](https://mccarthy-m-g.github.io/palettes/articles/ggplot2.html)
 
 ``` r
-library(hutchpalette)
+library(hutchplot)
 #> Loading required package: palettes
 library(ggplot2)
 library(scales)
