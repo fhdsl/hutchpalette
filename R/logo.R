@@ -16,6 +16,9 @@
 #' dasl_logo()
 #' }
 dasl_logo <- function() {
+  # Borrowed from
+  # https://www.markhw.com/blog/logos
+  # https://stackoverflow.com/q/76354700/14804653
   list(
     ggplot2::annotation_custom(render_png(system.file("logo", "dasl-logo.png",
                                              package = "hutchplot"))),
