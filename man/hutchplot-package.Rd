@@ -4,7 +4,7 @@
 \name{hutchplot-package}
 \alias{hutchplot}
 \alias{hutchplot-package}
-\title{hutchplot: Color Palette and Logos for the Fred Hutchinson Cancer Center}
+\title{hutchplot: Color Palettes and Logos for the Fred Hutchinson Cancer Center}
 \description{
 Provides functions for ggplot2 color palettes and logos.
 }
